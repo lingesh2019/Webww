@@ -8,11 +8,11 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @Configuration
 @ComponentScan("com.demo")
 public class WebMvcConfig {
-	@Bean(name = "viewResolver")
+	@Bean(name = "viewResolverr")
 	public InternalResourceViewResolver getViewResolver() {
-	    InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-	    viewResolver.setPrefix("/");
-	    viewResolver.setSuffix(".jsp");
-	    return viewResolver;
+	    InternalResourceViewResolver viewResolverr = new InternalResourceViewResolver();
+	    viewResolverr.setPrefix("/");
+	    viewResolverr.setSuffix(".jsp");
+	    return viewResolverr;
 	}
 }
