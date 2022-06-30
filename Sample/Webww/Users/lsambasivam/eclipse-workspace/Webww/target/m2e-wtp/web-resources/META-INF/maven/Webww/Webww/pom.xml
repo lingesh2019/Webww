@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>Customer Manager</name>
-	<description>Spring Data JPA</description>
+	<description>JPA Projects</description>
 
 	<properties>
 		<spring.version>5.1.5.RELEASE</spring.version>
