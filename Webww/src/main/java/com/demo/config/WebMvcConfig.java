@@ -1,5 +1,5 @@
 package com.demo.config;
-
+//Test
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -11,7 +11,7 @@ public class WebMvcConfig {
 	@Bean(name = "viewResolverr")
 	public InternalResourceViewResolver getViewResolver() {
 	    InternalResourceViewResolver viewResolverr = new InternalResourceViewResolver();
-	    viewResolverr.setPrefix("/WEB-INF/");
+	    viewResolverr.setPrefix("/");
 	    viewResolverr.setSuffix(".jsp");
 	    return viewResolverr;
 	}

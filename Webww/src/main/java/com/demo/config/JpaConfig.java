@@ -1,5 +1,5 @@
 package com.demo.config;
-
+//Test
 import javax.persistence.EntityManagerFactory;
 
 import org.springframework.context.annotation.Bean;
